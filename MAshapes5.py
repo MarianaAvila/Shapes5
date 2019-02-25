@@ -23,5 +23,7 @@ gPentagon = Polygon(Point(370,80),Point(370,130),Point(395,180),Point(420,130),P
 gPentagon.setFill(color_rgb(50,205,50)) 
 gPentagon.draw(shapesWin)
 
-#bDiamond = Polygon(Point((xWindowSize/2)),((yWindowSize/2+50))
+bDiamond = Polygon(Point(xWindowSize/2,yWindowSize/2+50),Point(xWindowSize/2 + 50,yWindowSize/2),Point(xWindowSize/2, yWindowSize/2 -50),Point(xWindowSize/2 -50,yWindowSize/2))
+bDiamond.setFill(color_rgb(135,206,250))
+bDiamond.draw(shapesWin)
     
